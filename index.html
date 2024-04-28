@@ -16,6 +16,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Italiana&display=swap');
 body{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Italiana&display=swap');
+body{
     background: #202023;
     margin: 0 auto;
     padding: 0;
@@ -25,6 +31,15 @@ body{
     background-image: url(./images/photo_2022-06-05_13-14-26\ 1.svg);
     width: 100%;
 height: 1154px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.header2{
+    background-image: linear-gradient(to top,rgb(18, 18, 18),#272727);
+    opacity: 80%;
+    width: 100%;
+height: 74px;
+position: fixed;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -49,26 +64,6 @@ li{
     transition: font-size ease-in-out .2s;
     will-change: auto;
     color: #C59A6D;
-}
-.flla:hover{
-    font-size:28px;
-    transition: font-size ease-in-out .2s;
-    will-change: auto;   
-}
-.foodcart2 p:hover{
-    font-size: 29px;
-    transition: font-size ease-in-out .2s;
-    will-change: auto; 
-}
-.t10:hover{
-    font-size: 34px;
-    transition: font-size ease-in-out .2s;
-    will-change: auto;   
-}
-.tiktok:hover{
-    font-size: 34px;
-    transition: font-size ease-in-out .2s;
-    will-change: auto;    
 }
 .el{
     font-family: "Inter" , sans-serif;
@@ -105,6 +100,21 @@ color: #FFFFFF;
     height: 35px;
     padding: 22px 52px 25px 42px;
     text-align: center;
+}
+.btn:hover{
+    font-size: 34px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;   
+}
+.btn2:hover{
+    font-size: 24px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;   
+}
+.brn2:hover{
+    font-size: 34px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;   
 }
 .btn{
     font-family: "Inter" , sans-serif;
@@ -235,7 +245,7 @@ line-height: 31.37px;
     font-weight: 400;
     line-height: 77.45px;
     color: #FFFFFF;
-    margin-left: 1270px;
+    margin-left: 1570px;
 }
 .ulr{
     margin-top:125px ;
@@ -269,7 +279,7 @@ color: white;
     margin-left: 120px;
 }
 .sec4{
-    background-image:linear-gradient(to bottom,rgb(18, 18, 18),#202023);
+    background-image:linear-gradient(to bottom,rgb(18, 18, 18),rgb(23, 23, 24),#18181b,#202023);
  width: 100%;
  height: 875px;
 }
@@ -292,7 +302,7 @@ background-size: cover;
     line-height: 77.45px;
     color: #FFFFFF;
     padding-top: 50px;
-    margin-left: 75px;
+    padding-left: 75px;
 }
 .foodcart{
     margin-left: 520px;
@@ -328,21 +338,6 @@ color: white;
     color: #FFFFFF;
     margin-top: 50px;
     margin-left: 175px;
-}
-    .btn:hover{
-    font-size: 34px;
-    transition: font-size ease-in-out .2s;
-    will-change: auto;   
-}
-.btn2:hover{
-    font-size: 24px;
-    transition: font-size ease-in-out .2s;
-    will-change: auto;   
-}
-.brn2:hover{
-    font-size: 34px;
-    transition: font-size ease-in-out .2s;
-    will-change: auto;   
 }
 .som{ 
     font-family: "Inter" , sans-serif;  
@@ -419,27 +414,31 @@ color: white;
     will-change: auto;
     cursor: pointer;  
 }
+.t10:hover{
+    font-size: 34px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;
+    cursor: pointer;    
+}
+.tiktok:hover{
+    font-size: 34px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;
+    cursor: pointer;     
+}
 .co:hover{
     scale: 115%;
     transition: scale ease-in-out .2s;
     will-change: auto; 
     cursor: pointer; 
 }
-.header2{
-    background-image: linear-gradient(to top,rgb(18, 18, 18),#272727);
-    opacity: 80%;
-    width: 100%;
-height: 74px;
-position: fixed;
-background-repeat: no-repeat;
-background-size: cover;
-}
+
 </style>
 <body>
-    <header class="header">
+        <header class="header">
         <div class="container">
             <div class="header-wrap flex">
-                <div class="header2>
+                <div class="header2">
                     <nav>
                         <ul class="menu flex">
                             <li class="bt"><a class="el" href="#">About Us</a></li>
@@ -510,6 +509,7 @@ background-size: cover;
             </div>
         </section>
     </header>
+    <main>
     <section class="sec3">
         <div class="container">
         <div class="sec3-wrap">
@@ -621,6 +621,8 @@ background-size: cover;
 </div>
 </div>
 </section>
+</main>
+<footer>
     </section>
     <section class="sec6">
 <div class="contrainer">
@@ -678,4 +680,6 @@ Inst:@TR.Bekary
     </div>
      </div>
     </section>
+</footer>
+</body>
 </html>
