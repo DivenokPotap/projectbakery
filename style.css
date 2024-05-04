@@ -13,6 +13,15 @@ height: 1154px;
 background-repeat: no-repeat;
 background-size: cover;
 }
+.header2{
+    background-image: linear-gradient(to top,rgb(18, 18, 18),#272727);
+    opacity: 80%;
+    width: 100%;
+height: 74px;
+position: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
 .flex{
 display: flex;
 }
@@ -28,6 +37,12 @@ a{
 }
 li{
     list-style: none;
+}
+.el:hover{
+    font-size: 36px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;
+    color: #C59A6D;
 }
 .el{
     font-family: "Inter" , sans-serif;
@@ -65,6 +80,21 @@ color: #FFFFFF;
     padding: 22px 52px 25px 42px;
     text-align: center;
 }
+.btn:hover{
+    font-size: 34px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;   
+}
+.btn2:hover{
+    font-size: 24px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;   
+}
+.brn2:hover{
+    font-size: 34px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;   
+}
 .btn{
     font-family: "Inter" , sans-serif;
     color: #FFFFFF;
@@ -87,6 +117,7 @@ color: #FFFFFF;
     font-size: 16px;
     font-weight: 900;
     line-height: 19.36px;
+    padding: 10px 20px 10px 20px;
 }
 .textcoockie{
     margin-top: 5px;
@@ -112,7 +143,7 @@ color: #FFFFFF;
 .button3{
     margin-top: 20px;
 width: 79px;
-height: 34px;
+height: 24px;
 background-color:#C85312;
 text-align: center;  
 padding: 2px 3px 3px 2px;
@@ -207,7 +238,7 @@ position: absolute;
 }
 .flla{
     margin-left: 20px;
-    background: #F2F2F24D;
+    background: #423e3edc;
     width: 300px;
     height: 200px;
 box-shadow: 0px 4px 20px 0px #00000040;
@@ -228,11 +259,14 @@ color: white;
     margin-left: 120px;
 }
 .sec4{
-    background-image:linear-gradient(to bottom,rgb(18, 18, 18),#202023);
+    background-image: url(./images/1000_F_441326907_2k2s2LVTYfNXJx0GjbI9t8SKrdVMyirR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
  width: 100%;
  height: 875px;
 }
 .sec5{
+    padding-top: 1px;
     background-image: url(./images/photo_2022-06-23_21-45-36\ 1.svg);
     width: 100%;
     height: 580px;
@@ -240,9 +274,13 @@ color: white;
 background-size: cover;
 }
 .gradient{
+    padding-top: 2px;
     background-image:linear-gradient(129.59deg, #000000 8.49%, rgba(3, 3, 3, 0) 77.17%) ;
  width: 100%;
  height: 580px; 
+}
+.sec5-wrap{
+    margin-bottom: 0px;
 }
 .why{
     font-family: "Italiana" , sans-serif;
@@ -315,7 +353,69 @@ color: white;
 }
 .sec7{
     background-image:linear-gradient(to top,rgb(18, 18, 18),#202023);
+    width: 100%;
+    height: 440px;
 }
 .t9{
     margin-left: 300px;
+}
+.som1 p:hover{
+    font-size: 34px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto; 
+    cursor: pointer; 
+} 
+.r4{
+    margin-left: 230px;
+    font-family: "Inter" , sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.05px;
+color: white;
+}
+.r5{
+    margin-left: 350px;
+    font-family: "Inter" , sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.05px;
+color: white;
+}
+.r6{
+    margin-left: 275px;
+    font-family: "Inter" , sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.05px;
+color: white;
+}
+.flla:hover{
+    font-size:28px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;
+    cursor: pointer;    
+}
+.foodcart2 p:hover{
+    font-size: 29px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;
+    cursor: pointer;  
+}
+.t10:hover{
+    font-size: 34px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;
+    cursor: pointer;    
+}
+.tiktok:hover{
+    font-size: 34px;
+    transition: font-size ease-in-out .2s;
+    will-change: auto;
+    cursor: pointer;     
+}
+.co:hover{
+    scale: 115%;
+    transition: scale ease-in-out .2s;
+    will-change: auto; 
+    cursor: pointer; 
 }
